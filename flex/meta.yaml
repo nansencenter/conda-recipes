@@ -1,0 +1,18 @@
+package:
+  name: flex
+  version: 2.5.37
+
+source:
+  fn: flex-2.5.37.tar.gz # [linux]
+  url: http://sourceforge.net/projects/flex/files/flex-2.5.37.tar.gz # [linux]
+
+about:
+    home: http://flex.sourceforge.net/
+    license: BSD
+
+requirements:
+  build:
+    - m4 # [linux]
+
+  run:
+    - m4 # [linux]
