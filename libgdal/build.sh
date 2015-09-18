@@ -18,7 +18,7 @@ bash configure \
     --with-hdf5=$PREFIX \
     --with-netcdf=$PREFIX \
     --with-dods-root=$PREFIX \
-    --with-geos=$PREFIX \
+    --with-geos=$PREFIX/bin/geos-config \
     --prefix=$PREFIX
 
 
