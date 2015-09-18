@@ -18,12 +18,14 @@ LinuxInstallation() {
     chmod +x configure;
 
     ./configure \
-        --disable-static \
         --enable-linux-lfs \
+        --disable-static \
         --with-ssl \
         --with-zlib \
         --disable-netcdf \
         --disable-fortran \
+        --enable-shared=yes \
+        --with-jpeg=${PREFIX} \
         --prefix=${PREFIX} || return 1;
     make || return 1;
     make install || return 1;
