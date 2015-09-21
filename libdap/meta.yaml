@@ -10,7 +10,9 @@ source:
 #  fn: libdap-3.15.0.tar.gz
 
 build:
-  number: 0
+  number: 0 [linux64]
+  number: 0 [linux32]
+
 
 requirements:
   build:

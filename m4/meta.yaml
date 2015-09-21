@@ -6,6 +6,11 @@ source:
   fn: m4-1.4.17.tar.gz
   url: http://ftp.gnu.org/gnu/m4/m4-1.4.17.tar.gz
 
+build:
+  number: 0 [linux64]
+  number: 0 [linux32]
+
+
 test:
   commands:
     - m4 --help

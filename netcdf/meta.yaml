@@ -7,7 +7,9 @@ source:
   fn: netcdf-v4.3.3.1.tar.gz
 
 build:
-  number: 2
+  number: 2 [linux64]
+  number: 0 [linux32]
+
 
 requirements:
   build:
