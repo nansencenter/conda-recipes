@@ -7,7 +7,9 @@ source:
   url: https://github.com/Unidata/netcdf4-python/archive/v1.1.9rel.tar.gz
 
 build:
-  number: 0
+  number: 0 [linux64]
+  number: 0 [linux32]
+
 
 requirements:
   build:

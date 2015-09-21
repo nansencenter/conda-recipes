@@ -14,7 +14,8 @@ source:
     - install_scripts.patch
 
 build:
-  number: 4
+  number: 4 [linux64]
+  number: 0 [linux32]
 
 requirements:
   build:

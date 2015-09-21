@@ -12,7 +12,8 @@ source:
   md5: 2c5f8f12ed416febd2cbd7b63c48eb17
 
 build:
-  number: 4
+  number: 4 [linux64]
+  number: 0 [linux32]
 
 requirements:
   build:
