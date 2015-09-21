@@ -35,3 +35,7 @@ mkdir -p $DEACTIVATE_DIR
 cp $RECIPE_DIR/posix/activate.sh $ACTIVATE_DIR/gdal-activate.sh
 cp $RECIPE_DIR/posix/deactivate.sh $DEACTIVATE_DIR/gdal-deactivate.sh
 
+# Set GDAL_DATA if you are not using a virtual environment
+
+export GDAL_DATA=$(gdal-config --datadir)
+echo 'export GDAL_DATA=$(gdal-config --datadir)' >> ~/.bashrc
