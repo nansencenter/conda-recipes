@@ -14,7 +14,7 @@ source:
     - install_scripts.patch
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
@@ -24,7 +24,8 @@ requirements:
     - hdf4
     - hdf5
     - libdap 3.12.0
-    - nansat-netcdf
+    - libnetcdf
+#    - nansat-netcdf
   run:
     - python
     - nansat-libgdal
@@ -32,7 +33,8 @@ requirements:
     - hdf4
     - hdf5
     - libdap 3.12.0
-    - nansat-netcdf
+    - libnetcdf
+#    - nansat-netcdf
 
 #test:
 #  imports:

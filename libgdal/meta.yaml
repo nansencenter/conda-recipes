@@ -12,19 +12,21 @@ source:
   md5: 2c5f8f12ed416febd2cbd7b63c48eb17
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
     - hdf4
     - hdf5
-    - nansat-netcdf
+    - libnetcdf
+#    - nansat-netcdf
     - libdap 3.12.0
     - geos
   run:
     - hdf4
     - hdf5
-    - nansat-netcdf
+    - libnetcdf
+#    - nansat-netcdf
     - libdap 3.12.0
     - geos
 #test:
