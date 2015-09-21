@@ -15,7 +15,7 @@ source:
 
 build:
   number: 4 [linux64]
-  number: 0 [linux32]
+  number: 1 [linux32]
 
 requirements:
   build:
@@ -26,6 +26,7 @@ requirements:
     - hdf5
     - libdap 3.12.0
     - libnetcdf
+    - libgcc
 #    - nansat-netcdf
   run:
     - python
@@ -35,6 +36,7 @@ requirements:
     - hdf5
     - libdap 3.12.0
     - libnetcdf
+    - libgcc
 #    - nansat-netcdf
 
 #test:

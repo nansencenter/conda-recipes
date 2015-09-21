@@ -10,7 +10,6 @@ build:
   number: 0 [linux64]
   number: 0 [linux32]
 
-
 test:
   commands:
     - m4 --help
