@@ -7,7 +7,7 @@ source:
   url: http://www.hdfgroup.org/ftp/HDF/HDF_Current/src/hdf-4.2.11.tar.bz2
 
 build:
-  number: 1 [linux64]
+  number: 2 [linux64]
   number: 0 [linux32]
 
 

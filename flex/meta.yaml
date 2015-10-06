@@ -1,10 +1,10 @@
 package:
   name: flex
-  version: 2.5.37
+  version: 2.5.39
 
 source:
-  fn: flex-2.5.37.tar.gz # [linux]
-  url: http://sourceforge.net/projects/flex/files/flex-2.5.37.tar.gz # [linux]
+  fn: flex-2.5.39.tar.gz # [linux]
+  url: http://sourceforge.net/projects/flex/files/flex-2.5.39.tar.gz # [linux]
 
 build:
   number: 0 [linux64]

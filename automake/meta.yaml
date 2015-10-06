@@ -7,7 +7,7 @@ source:
   url: http://ftp.gnu.org/gnu/automake/automake-1.14.tar.gz
 
 build:
-  number: 2 [linux64]
+  number: 4 [linux64]
   number: 0 [linux32]
 
 

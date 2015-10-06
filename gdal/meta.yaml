@@ -1,12 +1,9 @@
 package:
   name: nansat-gdal
-#  version: "1.11.2"
   version: "2.0.0"
 
 source:
-#  fn: gdal-1.11.2.tar.gz
   fn: GDAL-2.0.0.tar.gz
-#  url: http://download.osgeo.org/gdal/1.11.2/gdal-1.11.2.tar.gz
   url: https://pypi.python.org/packages/source/G/GDAL/GDAL-2.0.0.tar.gz
   patches:
     - prepend-dll.patch    [win]
@@ -14,7 +11,7 @@ source:
     - install_scripts.patch
 
 build:
-  number: 4 [linux64]
+  number: 6 [linux64]
   number: 1 [linux32]
 
 requirements:
@@ -27,7 +24,6 @@ requirements:
     - libdap 3.12.0
     - libnetcdf
     - libgcc
-#    - nansat-netcdf
   run:
     - python
     - nansat-libgdal
@@ -37,7 +33,6 @@ requirements:
     - libdap 3.12.0
     - libnetcdf
     - libgcc
-#    - nansat-netcdf
 
 #test:
 #  imports:

@@ -1,18 +1,14 @@
 package:
   name: nansat-libgdal
-#  version: "1.11.2"
   version: "2.0.0"
 
 source:
-#  url: http://download.osgeo.org/gdal/1.11.2/gdal-1.11.2.tar.gz
   url: http://download.osgeo.org/gdal/2.0.0/gdal-2.0.0.tar.gz
-#  fn: libgdal-1.11.2.tar.gz
   fn: libgdal-2.0.0.tar.gz
-#  md5: 866a46f72b1feadd60310206439c1a76
   md5: 2c5f8f12ed416febd2cbd7b63c48eb17
 
 build:
-  number: 5 [linux64]
+  number: 6 [linux64]
   number: 0 [linux32]
 
 requirements:
@@ -23,6 +19,7 @@ requirements:
 #    - nansat-netcdf
     - libdap 3.12.0
     - geos
+    - proj.4
   run:
     - hdf4
     - hdf5
@@ -30,6 +27,8 @@ requirements:
 #    - nansat-netcdf
     - libdap 3.12.0
     - geos
+    - proj.4
+
 #test:
 #  commands:
 #    - gdal_contour --help
