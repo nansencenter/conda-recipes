@@ -11,27 +11,27 @@ source:
     - install_scripts.patch
 
 build:
-  number: 6 [linux64]
-  number: 1 [linux32]
+  number: 7 [linux64]
+  number: 2 [linux32]
 
 requirements:
   build:
     - python
     - nansat-libgdal
-    - numpy
+    - numpy 1.10.1
     - hdf4
-    - hdf5
+    - hdf5 1.8.15.1
     - libdap 3.12.0
-    - libnetcdf
+    - libnetcdf 4.3.3.1
     - libgcc
   run:
     - python
     - nansat-libgdal
-    - numpy
+    - numpy 1.10.1
     - hdf4
-    - hdf5
+    - hdf5 1.8.15.1
     - libdap 3.12.0
-    - libnetcdf
+    - libnetcdf 4.3.3.1
     - libgcc
 
 #test:
