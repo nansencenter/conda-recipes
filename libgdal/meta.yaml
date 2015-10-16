@@ -8,26 +8,24 @@ source:
   md5: 2c5f8f12ed416febd2cbd7b63c48eb17
 
 build:
-  number: 6 [linux64]
-  number: 0 [linux32]
+  number: 7 [linux64]
+  number: 1 [linux32]
 
 requirements:
   build:
     - hdf4
-    - hdf5
-    - libnetcdf
-#    - nansat-netcdf
+    - hdf5 1.8.15.1
+    - libnetcdf 4.3.3.1
     - libdap 3.12.0
-    - geos
-    - proj.4
+    - geos 3.4.2
+    - proj.4 4.9.1
   run:
     - hdf4
-    - hdf5
-    - libnetcdf
-#    - nansat-netcdf
+    - hdf5 1.8.15.1
+    - libnetcdf 4.3.3.1
     - libdap 3.12.0
-    - geos
-    - proj.4
+    - geos 3.4.2
+    - proj.4 4.9.1
 
 #test:
 #  commands:
