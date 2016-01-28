@@ -1,14 +1,14 @@
 package:
   name: nansat-libgdal
-  version: "2.0.0"
+  version: "2.0.1"
 
 source:
-  url: http://download.osgeo.org/gdal/2.0.0/gdal-2.0.0.tar.gz
-  fn: libgdal-2.0.0.tar.gz
-  md5: 2c5f8f12ed416febd2cbd7b63c48eb17
+  url: http://download.osgeo.org/gdal/2.0.1/gdal-2.0.1.tar.gz
+  fn: libgdal-2.0.1.tar.gz
+  md5: bdded121a62dae246d8500b42d87145b
 
 build:
-  number: 7 [linux64]
+  number: 1 [linux64]
   number: 1 [linux32]
 
 requirements:
