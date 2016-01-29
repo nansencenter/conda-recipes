@@ -21,6 +21,7 @@ bash configure \
     --with-dods-root=$PREFIX \
     --with-geos=$PREFIX/bin/geos-config \
     --with-static-proj4=$PREFIX \
+    --with-jasper==$PREFIX \
     --prefix=$PREFIX
 
 

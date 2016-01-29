@@ -19,6 +19,7 @@ requirements:
     - libdap
     - geos 3.3.3
     - proj.4 4.9.1
+    - libjasper
   run:
     - hdf4
     - hdf5 1.8.15.1
@@ -26,6 +27,7 @@ requirements:
     - libdap
     - geos 3.3.3
     - proj.4 4.9.1
+    - libjasper
 
 #test:
 #  commands:

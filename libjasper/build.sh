@@ -1,4 +1,9 @@
 #!/bin/bash
+unset CC CPP CXX
+export CFLAGS=" -fPIC "
+export CPPFLAGS="${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+
 bash configure \
     --prefix=$PREFIX
 

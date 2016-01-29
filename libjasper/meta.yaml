@@ -1,0 +1,20 @@
+package:
+  name: libjasper
+  version: "1.900.1"
+
+source:
+  url: ftp://ftp.remotesensing.org/gdal/jasper-1.900.1.uuid.tar.gz
+  fn: jasper-1.900.1.uuid.tar.gz
+
+build:
+  number: 1 [linux64]
+  number: 0 [linux32]
+
+requirements:
+  build:
+    - automake
+
+about:
+  home: http://www.ece.uvic.ca/~frodo/jasper/
+  license: MIT
+  summary: Open-source implementation of the JPEG-2000 Part-1 (ISO/IEC 15444-1)
