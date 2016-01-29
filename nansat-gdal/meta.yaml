@@ -16,23 +16,23 @@ build:
 
 requirements:
   build:
-    - python
+    - python 2.7.10
     - nansat-libgdal
-    - numpy 1.10.1
+    - numpy 1.10.2
     - hdf4
     - hdf5 1.8.15.1
-    - libdap 3.12.0
+    - libdap
     - libnetcdf 4.3.3.1
-    - libgcc
+    - libgcc 4.8.5
   run:
-    - python
+    - python 2.7.10
     - nansat-libgdal
-    - numpy 1.10.1
+    - numpy 1.10.2
     - hdf4
     - hdf5 1.8.15.1
-    - libdap 3.12.0
+    - libdap
     - libnetcdf 4.3.3.1
-    - libgcc
+    - libgcc 4.8.5
 
 about:
   home: https://pypi.python.org/pypi/GDAL/

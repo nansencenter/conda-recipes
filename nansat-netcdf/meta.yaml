@@ -14,14 +14,14 @@ build:
 requirements:
   build:
     - hdf4
-    - hdf5
+    - hdf5 1.8.15.1
     - szip
-    - jpeg
+    - jpeg 8d
   run:
     - hdf4
-    - hdf5
+    - hdf5 1.8.15.1
     - szip
-    - jpeg
+    - jpeg 8d
 
 about:
   home: http://www.unidata.ucar.edu/software/netcdf/

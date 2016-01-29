@@ -13,20 +13,20 @@ build:
 
 requirements:
   build:
-    - python
-    - numpy
-    - cython
+    - python 2.7.11
+    - numpy 1.10.2
+    - cython 0.23.4
 ## might need to recompile hdf5 with --enable-hl --enable-shared.
-    - curl
-    - hdf5
+    - curl 7.45.0
+    - hdf5 1.8.15.1
     - hdf4
     - nansat-netcdf
   run:
-    - python
-    - numpy
+    - python 2.7.11
+    - numpy 1.10.2
 ## might need to recompile hdf5 with --enable-hl --enable-shared.
-    - curl
-    - hdf5
+    - curl 7.45.0
+    - hdf5 1.8.15.1
     - hdf4
     - nansat-netcdf
 

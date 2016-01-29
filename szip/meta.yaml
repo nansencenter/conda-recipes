@@ -14,8 +14,10 @@ build:
 
 requirements:
   build:
+    - m4
 
   run:
+    - m4
 
 test:
   imports:

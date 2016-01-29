@@ -15,15 +15,15 @@ requirements:
   build:
     - hdf4
     - hdf5 1.8.15.1
-    - libnetcdf 4.3.3.1
-    - libdap 3.12.0
+    - libnetcdf
+    - libdap
     - geos 3.3.3
     - proj.4 4.9.1
   run:
     - hdf4
     - hdf5 1.8.15.1
-    - libnetcdf 4.3.3.1
-    - libdap 3.12.0
+    - libnetcdf
+    - libdap
     - geos 3.3.3
     - proj.4 4.9.1
 
