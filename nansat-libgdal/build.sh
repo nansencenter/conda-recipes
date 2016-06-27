@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# http://www.michael-joost.de/gdal_install.html
-unset CC CPP CXX
-
-if [ `uname` == Darwin ]; then
-    export LDFLAGS="$LDFLAGS -headerpad_max_install_names"
-fi
 #force python bindings to not be built
 export PYTHON=
 
@@ -21,8 +15,10 @@ bash configure \
     --with-dods-root=$PREFIX \
     --with-geos=$PREFIX/bin/geos-config \
     --with-static-proj4=$PREFIX \
-    --with-jasper==$PREFIX \
-    --prefix=$PREFIX
+    --with-jasper=$PREFIX \
+    --with-xml2=$PREFIX \
+    --prefix=$PREFIX \
+	--disable-rpath
 
 
 make

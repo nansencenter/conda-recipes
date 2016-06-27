@@ -7,8 +7,8 @@ source:
   url: http://sourceforge.net/projects/flex/files/flex-2.5.39.tar.gz # [linux]
 
 build:
-  number: 0 [linux64]
-  number: 0 [linux32]
+  number: 1 [linux64]
+  number: 1 [linux32]
 
 
 about:

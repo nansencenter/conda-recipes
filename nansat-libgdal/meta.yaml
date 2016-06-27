@@ -8,8 +8,8 @@ source:
   md5: bdded121a62dae246d8500b42d87145b
 
 build:
-  number: 1 [linux64]
-  number: 1 [linux32]
+  number: 3 [linux64]
+  number: 2 [linux32]
 
 requirements:
   build:
@@ -18,16 +18,18 @@ requirements:
     - libnetcdf
     - libdap
     - geos 3.3.3
-    - proj.4 4.9.1
+    - proj4 4.9.1
     - libjasper
+    - libxml2
   run:
     - hdf4
     - hdf5 1.8.15.1
     - libnetcdf
     - libdap
     - geos 3.3.3
-    - proj.4 4.9.1
+    - proj4 4.9.1
     - libjasper
+    - libxml2
 
 #test:
 #  commands:

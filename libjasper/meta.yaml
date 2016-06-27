@@ -7,7 +7,7 @@ source:
   fn: jasper-1.900.1.uuid.tar.gz
 
 build:
-  number: 1 [linux64]
+  number: 2 [linux64]
   number: 0 [linux32]
 
 requirements:

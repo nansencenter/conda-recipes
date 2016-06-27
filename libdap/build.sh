@@ -13,7 +13,7 @@
 #export CFLAGS="-I$PREFIX/include"
 #export CPPFLAGS="-I$PREFIX/include"
 #export LD_LIBRARY_PATH=$SYS_PREFIX/lib
-export LDFLAGS="-L$SYS_PREFIX/lib"
+export LDFLAGS="-L$PREFIX/lib"
 export CPPFLAGS="-I$PREFIX/include"
 
 printenv
@@ -23,6 +23,8 @@ sed -i 's/\/bin\/sh/\/bin\/bash/g' configure
 
 bash configure \
     --enable-threads=pth \
+	--with-xml2=$PREFIX \
+	--with-curl=$PREFIX \
     --prefix=$PREFIX
 
 #sed -i 's/\/bin\/sh/\/bin\/bash/g' Makefile
